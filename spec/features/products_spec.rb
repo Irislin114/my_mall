@@ -1,6 +1,7 @@
 require 'rails_helper'
 
 feature "Products", type: :feature do
+
   scenario "redirect to user sign in page if not sign in" do
       visit products_path
       click_link "New"
