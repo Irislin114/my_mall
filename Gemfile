@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-
+gem 'devise'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.5.1'
 # Use sqlite3 as the database for Active Record
@@ -41,7 +41,7 @@ group :development, :test do
   gem 'fuubar'
   gem 'guard-rspec', require: false
   gem 'spring-commands-rspec'
-  
+
   gem 'byebug'
 end
 
