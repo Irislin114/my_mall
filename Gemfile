@@ -41,6 +41,7 @@ group :development, :test do
   gem 'fuubar'
   gem 'guard-rspec', require: false
   gem 'spring-commands-rspec'
+  gem 'timecop'
 
   gem 'byebug'
 end
